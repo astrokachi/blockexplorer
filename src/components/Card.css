@@ -1,0 +1,125 @@
+.card {
+  background-color: var(--eerie-black);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  height: auto;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card:hover {
+  background-color: var(--rose-ebony);
+  border-color: var(--accent);
+  transform: translateX(2px);
+}
+
+.card-expanded {
+  background-color: var(--surface);
+  border-color: var(--accent);
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 120px;
+}
+
+.card-badge {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+  color: var(--text-light);
+}
+
+.card-time {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  text-align: right;
+}
+
+.card-info-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.card-label {
+  color: var(--text-muted);
+}
+
+.card-value {
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.card-accent {
+  color: var(--accent);
+}
+
+.card-mono {
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+
+.card-expanded-content {
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.detail-label {
+  color: var(--text-muted);
+  font-weight: 500;
+  min-width: 100px;
+}
+
+.detail-value {
+  color: var(--text-light);
+  word-break: break-all;
+  text-align: right;
+  flex: 1;
+}

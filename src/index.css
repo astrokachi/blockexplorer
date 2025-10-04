@@ -1,3 +1,28 @@
+:root {
+  --black: #0B0B0B;
+  /* true deep black */
+  --eerie-black: #181818;
+  /* dark neutral base */
+  --rose-ebony: #3A2A2B;
+  /* muted reddish-brown depth */
+  --wenge: #4A3B3C;
+  /* subtle warmth for surfaces */
+
+  /* optional supporting tones */
+  --text-light: #E6E3E1;
+  /* soft light text (not pure white) */
+  --text-muted: #A59E9C;
+  /* subdued text for secondary info */
+  --accent: #B8755B;
+  /* warm accent (pairs well with rose-ebony) */
+  --border: #2C2C2C;
+  /* low-contrast divider */
+  --surface: #1C1C1C;
+  /* card or section background */
+  --bg: var(--black);
+  /* overall app background */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
